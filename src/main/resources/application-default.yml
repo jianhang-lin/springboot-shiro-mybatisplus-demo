@@ -1,0 +1,11 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/dev2?TimeZone=Asia/Shanghai
+    username: usr_spc
+    password: A8spc!
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: 127.0.0.1:6379
